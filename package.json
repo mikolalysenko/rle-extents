@@ -1,0 +1,32 @@
+{
+  "name": "rle-extents",
+  "version": "0.0.0",
+  "description": "Finds bounding box for rle volume",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tap": "~0.4.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/rle-extents.git"
+  },
+  "keywords": [
+    "rle",
+    "level",
+    "set",
+    "voxel",
+    "narrowband"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "58b83c82d448f5ac81a6fcdb8e2222119e45879f"
+}
