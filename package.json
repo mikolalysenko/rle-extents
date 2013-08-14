@@ -1,12 +1,13 @@
 {
   "name": "rle-extents",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Finds bounding box for rle volume",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
+    "rle-core": "0.0.8"
   },
   "devDependencies": {
     "tap": "~0.4.2"

@@ -19,7 +19,7 @@ function getBounds(volume, solid_func) {
   if(!solid_func) {
     solid_func = defaultSolid
   }
-  for(i=0; i<n; ++i) {
+  for(i=0; i<n-1; ++i) {
     if(solid_func(phases[i])) {
       for(j=0; j<3; ++j) {
         lo[j] = Math.min(coords[j][i], lo[j])
